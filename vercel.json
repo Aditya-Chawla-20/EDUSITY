@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "buildCommand": "cd EDUSITY && npm install && npm run build",
+  "outputDirectory": "EDUSITY/dist",
+  "installCommand": "cd EDUSITY && npm install"
+}
